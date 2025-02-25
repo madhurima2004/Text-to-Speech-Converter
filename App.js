@@ -4,7 +4,7 @@ let txtArea=document.querySelector("textarea")
 
 btn.addEventListener("click",()=>{
     speech.text = txtArea.value;
-    window.speechSynthesis.speak(speech);
+    window.speechSynthesis.speak(speech); // window.speechsyn.speak == browser.speak
 });
 
 
